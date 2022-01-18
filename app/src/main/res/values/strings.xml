@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Number System Converter</string>
+    <string name="decimal_input_text" > Enter Decimal Number </string>
+    <string name="binary_input_text" > Enter Binary Number </string>
+</resources>

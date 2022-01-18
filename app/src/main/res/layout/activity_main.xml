@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/input_decimal"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="@string/decimal_input_text"
+        android:backgroundTint="#000"
+        android:textCursorDrawable="@color/black"
+        />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/input_binary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/binary_input_text"
+        android:textSize="20dp"
+        android:backgroundTint="#000"
+        android:textCursorDrawable="@color/black"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/reset_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="Reset"
+        android:backgroundTint="#BF0303"
+        />
+
+</LinearLayout>
